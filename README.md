@@ -1,6 +1,8 @@
 # Django DB serialization bug reproduction
 
-A repository to reproduce a bug with serializing many to many through table models when using a database router and TransactionTestCase
+A repository to reproduce a bug with serializing many to many through table models when using a database router and TransactionTestCase.
+
+Confirmed on Django 4.2, 5.0, 5.1 and `main`.
 
 ---
 
